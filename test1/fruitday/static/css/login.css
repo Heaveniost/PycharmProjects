@@ -1,0 +1,128 @@
+p{
+	margin:0;
+}
+#container{
+	width:990px;
+	margin:0 auto;
+}
+#container>h2{
+	color:#999;
+	font-weight:normal;
+	margin:50px 0 30px 0;
+	padding-bottom:15px;
+	border-bottom:1px solid #ccc;
+}
+#container>p.user-pic{
+	float:left;
+}
+
+#user-login{
+	float:right;
+	margin-right:40px;
+	margin-top:80px;
+}
+
+#user-login .form-line{
+	overflow:hidden;
+	margin-bottom:20px;
+}
+#user-login .form-line>p{
+	float:left;
+	/*宽度，文本右对齐，右外边距，行高，文本颜色*/
+	width:64px;
+	text-align:right;
+	margin-right:40px;
+	line-height:40px;
+	color:#999;
+	height:40px;
+}
+#user-login .form-line>div{
+	float:left;
+}
+#uphone,#upwd{
+	/*宽度，高度，边框，内边距*/
+	width:278px;
+	height:38px;
+	border:1px solid #ccc;
+	padding:0 10px;
+	color:#555;
+	/*取消轮廓，文本大小*/
+	outline:none;
+	font-size:18px;
+}
+#uphone:focus,#upwd:focus{
+	border-color:#64A131;
+	box-shadow:0 0 2px #64A131;
+}
+
+#user-login .forget-pwd{
+	width:300px;
+}
+#user-login .forget-pwd p{
+	float:right;
+}
+#user-login .forget-pwd a{
+	color:#999;
+	text-decoration:underline;
+}
+#user-login .forget-pwd input{
+	width:18px;
+	height:18px;
+	vertical-align:middle;
+}
+#user-login .form-btn{
+	width:300px;
+}
+#user-login .form-btn .register{
+	float:right;
+	width:143px;
+	height:38px;
+	border:1px solid #64A131;
+	background:#F5FFED;
+	border-radius:5px;
+	font-size:18px;
+	text-decoration:none;
+	color:#64a131;
+	text-align:center;
+	line-height:40px;
+}
+#user-login .form-btn input{
+	/*宽度，高度，取消边框，边框倒角，背景颜色，文本颜色，文字大小*/
+	width:145px;
+	height:40px;
+	border:none;
+	border-radius:5px;
+	background:#64a131;
+	color:#fff;
+	font-size:18px;
+}
+
+
+/**绝对定位练习*/
+#container p.user-pic{
+	/*目的是为了配合 a 标记做绝对定位*/
+	position:relative;
+}
+#container p.user-pic a{
+	position:absolute;
+	left:175px;
+	bottom:20px;
+	/*宽度，高度，边框，倒角，文字大小，颜色，水平居中，垂直居中*/
+	width:153px;
+	height:48px;
+	border:1px solid #64A131;
+	border-radius:5px;
+	font-size:18px;
+	color:#64a131;
+	text-align:center;
+	line-height:50px;
+	text-decoration:none;
+}
+
+#uphone_err{
+	margin-top:10px;
+}
+
+
+
+

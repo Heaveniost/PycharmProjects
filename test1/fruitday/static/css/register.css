@@ -1,0 +1,15 @@
+.form-control{
+    /*宽度，高度，边框，内边距*/
+    width:278px;
+    height:38px;
+    border:1px solid #ccc;
+    padding:0 10px;
+    color:#555;
+    /*取消轮廓，文本大小*/
+    outline:none;
+    font-size:18px;
+}
+.form-control:focus{
+    border-color:#64A131;
+    box-shadow:0 0 2px #64A131;
+}
